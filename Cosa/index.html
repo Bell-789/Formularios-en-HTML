@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUestionario</title>
+</head>
+
+<body>
+    <h1>Informacion del Alumno</h1>
+    <form action="/">
+
+        <label for="name">Nombre del Alumno</label>
+        <input type="text" name="Name" id="name" maxlength="13">
+        <br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="mail">
+
+        <div>
+            <label for="radios"> Genero: </label>
+            <label for="radios"> Masculino</label>
+            <input type="radio" name="radio" value="radios">
+            <label for="radios"> Femenino</label>
+            <input type="radio" name="radio" value="radios">
+
+        </div>
+
+        <div>
+            <label for="Materias">Materias:</label>
+            <input type="checkbox" name="MATE" id="1">
+            <label for="Matematicas"> Matematicas</label>
+            <input type="checkbox" name="ciencia" id="2">
+            <label for="Ciencias"> Ciencias</label>
+            <input type="checkbox" name="spanish" id="3">
+            <label for="Español"> Español</label>
+            <input type="checkbox" name="ingles" id="4">
+            <label for="Ingles">Ingles</label>
+        </div>
+
+        <label for="Ciudad"> Ciudad</label>
+        <select name="Ciudad" id="ciu" size="1">
+            <option value="Monterrey">Monterrey</option>
+            <option value="Guadalajara">Guadalajara</option>
+            <option value="Cancún">Cancún</option>
+            <option value="Puerto de Manzanillo">Puerto de Manzanillo</option>
+            <option value="Puerto de Altamira">Puerto de Altamira</option>
+        </select>
+
+        <br>
+
+        <label for="Comentarios">Comentarios</label>
+        <br>
+        <textarea name="areaTexto" id="textoarea" rows="10" cols="60"></textarea>
+        <br>
+        <input type="reset" name="Ola" id="9">
+        <input type="submit" name="Enviar" id="send" value="Enviar">
+
+    </form>
+
+</body>
+
+</html>
